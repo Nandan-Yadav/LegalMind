@@ -1,0 +1,15 @@
+
+.home-title {
+  font-size: clamp(2rem, 1.737rem + 1.32vw, 3rem);
+  color: var(--black-color);
+}
+
+.home-subtitle{
+    font-size: clamp(0.75rem, 0.673rem + 0.34vw, 1rem);
+}
+
+.home-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

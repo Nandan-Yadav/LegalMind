@@ -1,0 +1,139 @@
+/* theme.css or variables.css */
+:root {
+  --primary-color: #003da5ff;
+  --secondary-color: #3a63a8;
+  --info-color: #0091ea;
+  --warning-color: #ffea00;
+  --danger-color: #ff4c4c;
+  --success-color: #66bb6a;
+  --grey-color: #5c6972;
+  --light-grey-color: #d5d5d5;
+  --slate-grey-color: #4d5862;
+  --white-color: #ffffffff;
+  --black-color: #171a1fff;
+
+  --bot-grey-color-1: #212529;
+  --bot-grey-color-2: #343a40;
+  --bot-grey-color-3: #6c757d;
+  --bot-grey-color-4: #adb5bd;
+  --bot-grey-color-5: #dee2e6;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Font family and other body attributes */
+body {
+  font-family: "Poppins", "Noto Sans", "Montserrat", "Roboto", "Lato",
+    "Merriweather", "Playfair Display", sans-serif;
+    padding-top: 50px;
+}
+
+.section {
+  padding: 10px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Headings */
+h1 {
+  color: var(--primary-color);
+}
+
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+/* Paragraphs and Spans */
+p,
+span {
+  color: var(--grey-color);
+}
+
+/* Input Fields & Textarea */
+input,
+textarea {
+  color: var(--grey-color);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+
+/* Button Style */
+button {
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+button.primary:hover {
+  background-color: var(--secondary-color);
+}
+
+button.primary:active {
+  background-color: var(--primary-color);
+}
+
+button.secondary {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+button.secondary:hover {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+button.secondary:active {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+/* Responsive Media Queries for Heading Font Size */
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+/* xxl */
+@media (min-width: 1536px) {
+}

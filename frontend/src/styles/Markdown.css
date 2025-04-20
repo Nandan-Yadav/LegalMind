@@ -1,0 +1,116 @@
+.markdown-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 10px;
+    color: var(--white-color);
+  }
+  
+  /* Headings */
+  .markdown-container h1,
+  .markdown-container h2,
+  .markdown-container h3,
+  .markdown-container h4,
+  .markdown-container h5,
+  .markdown-container h6 {
+    color: var(--white-color);
+    margin-bottom: 0.8rem;
+  }
+  
+  .markdown-container h1 { font-size: 2.25rem; font-weight: 700; }
+  .markdown-container h2 { font-size: 1.875rem; font-weight: 600; }
+  .markdown-container h3 { font-size: 1.5rem; font-weight: 600; }
+  .markdown-container h4,
+  .markdown-container h5,
+  .markdown-container h6 { font-weight: 500; }
+  
+  /* Paragraphs */
+  .markdown-container p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+  }
+  
+  /* Links */
+  .markdown-container a {
+    color: var(--primary-color); /* Retaining primary blue for links */
+    text-decoration: underline;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .markdown-container a:hover {
+    color: var(--white-color);
+    text-decoration: none;
+  }
+  
+  /* Lists */
+  .markdown-container ul,
+  .markdown-container ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .markdown-container li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Code blocks */
+  .markdown-container pre {
+    background-color: var(----bot-grey-color-2);
+    color: var(--white-color);
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Inline code */
+  .markdown-container code {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--secondary-color); /* Replaced yellow with secondary blue */
+    font-family: "Fira Code", "Courier New", monospace;
+    font-size: 0.95rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  /* Images */
+  .markdown-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Blockquotes */
+  .markdown-container blockquote {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--bot-grey-color-2); /* Retained primary blue for blockquotes */
+    padding: 12px 20px;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    border-radius: 6px;
+  }
+  
+  /* Horizontal Rules */
+  .markdown-container hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 24px 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .markdown-container {
+      padding: 16px;
+    }
+  
+    .markdown-container h1 { font-size: 1.75rem; }
+    .markdown-container h2 { font-size: 1.5rem; }
+    .markdown-container h3 { font-size: 1.25rem; }
+  }
+  
