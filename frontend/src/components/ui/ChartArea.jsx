@@ -7,16 +7,15 @@ const ChartArea = ({ chartRef, updateConversationMessages }) => {
 
   const adjustHeight = () => {
     if (chartRef?.current) {
-      chartRef.current.style.height = `${chartRef.current.scrollHeight}px`;
-    }
-    if(chartRef?.current.value === ""){
       chartRef.current.style.height = "auto";
+      chartRef.current.style.height = `${chartRef.current.scrollHeight}px`;
     }
   };
 
   const handleChatSubmit = async () => {
-    const question = chartRef?.current?.value;
-    if (question) {
+    const question = chartRef?.current?.value.trim();
+    if(!question) return;
+    else{
       chartRef.current.value = "";
       updateConversationMessages((prevMessages) => [
         ...prevMessages,

@@ -18,7 +18,6 @@ export const TextAreaField = ({
   useLayoutEffect(() => {
     if (valueRef?.current) {
       valueRef.current.value = defaultValue;
-      valueRef.current.className = otherClassName;
       valueRef.current.name = name || "";
 
       if (placeholder instanceof Promise) {
@@ -92,6 +91,7 @@ export const TextAreaField = ({
     <div className={`textarea-container ${otherClassName}`}>
       {label && <label htmlFor={name}>{label}</label>}
       <textarea
+        className={`${otherClassName}`}
         ref={valueRef}
         onChange={debouncedHandleChange}
         rows={defaultRows}

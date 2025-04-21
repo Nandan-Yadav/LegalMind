@@ -41,12 +41,12 @@
   background-color: var(--bot-grey-color-2);
 }
 
-
 .textarea-container.chart-field > textarea {
   width: 100%;
   max-height: min(25vh, 25vw);
   overflow-y: auto;
   resize: none;
+  scrollbar-color: var(--bot-grey-color-4) var(--bot-grey-color-2);
   background-color: var( --bot-grey-color-2);
   color: var(--bot-grey-color-4);
   font-size: 1rem;
@@ -56,14 +56,6 @@
     "Merriweather", "Playfair Display", sans-serif;
 }
 
-::placeholder {
-  color: var(--bot-grey-color-4);
-  opacity: 1; /* Firefox */
-}
-
-::-ms-input-placeholder { /* Edge 12 -18 */
-  color: var(--bot-grey-color-4);
-}
 
 /* Button style */
 .btn {
