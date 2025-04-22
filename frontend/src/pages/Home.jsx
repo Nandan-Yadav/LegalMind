@@ -10,7 +10,7 @@ import "../styles/Home.css";
 const Home = () => {
   const navigate = useNavigate();
   const handleJoinNow = () => {
-    navigate("/join-options");
+    navigate("/sign-up-options");
   };
   const handleTalkToLegalBot = () => {
     navigate("/legal-bot");

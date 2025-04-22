@@ -4,6 +4,8 @@ export const ROUTES ={
     CaseStudiesAndBlogs: "/case-studies-blogs",
     LegalBot:"/legal-bot",
     UI: "/ui",
-    JoinOptions: "/join-options",
+    SignUpOptions: "/sign-up-options",
+    UserSignUp: "/user-sign-up",
+    AttorneySignUp: "/attorney-sign-up",
 };
 

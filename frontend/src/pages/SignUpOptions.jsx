@@ -3,15 +3,15 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "../components/ui/Button";
 import "../styles/JoinOptions.css";
 
-const JoinOptions = () => {
+const SignUpOptions = () => {
   const navigate = useNavigate();
 
   const handleUserJoin = () => {
-    navigate("/user-join");
+    navigate("/user-sign-up");
   };
 
   const handleAttorneyJoin = () => {
-    navigate("/attorney-join");
+    navigate("/attorney-sign-up");
   };
 
   return (
@@ -33,7 +33,7 @@ const JoinOptions = () => {
           </div>
           <Button
             otherClassNames={"primary"}
-            onClick={handleAttorneyJoin}
+            clickEvent={handleAttorneyJoin}
             defaultLabel={"Sign Up as Attorney"}
           />
         </div>
@@ -53,7 +53,7 @@ const JoinOptions = () => {
 
           <Button
             otherClassNames={"primary"}
-            onClick={handleUserJoin}
+            clickEvent={handleUserJoin}
             defaultLabel={"Sign Up as User"}
           />
         </div>
@@ -62,4 +62,4 @@ const JoinOptions = () => {
   );
 };
 
-export default JoinOptions;
+export default SignUpOptions;
