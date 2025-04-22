@@ -4,5 +4,6 @@ export const ROUTES ={
     CaseStudiesAndBlogs: "/case-studies-blogs",
     LegalBot:"/legal-bot",
     UI: "/ui",
+    JoinOptions: "/join-options",
 };
 

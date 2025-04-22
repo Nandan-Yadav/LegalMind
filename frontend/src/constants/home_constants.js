@@ -24,4 +24,9 @@ export const NAV_ITEMS = [
     }
 ]
 
-export const HOME_TITLE = "Explore Indian Law"
+export const HOME_TITLE = "Explore Indian Law";
+export const HOME_DESCRIPTION = "Discover the intricacies of the Indian Constitution and legal system.";
+export const HOME_SUBTITLE = "Your Gateway to Legal Knowledge and Resources.";
+
+export const TALK_TO_LEGAL_BOT =  "Talk to Legal Bot";
+export const JOIN_NOW = "Join Now";
