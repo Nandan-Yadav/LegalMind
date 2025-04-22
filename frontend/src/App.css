@@ -19,8 +19,6 @@
   --bot-grey-color-5: #dee2e6;
 }
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -76,7 +74,7 @@ textarea:focus {
 }
 
 /* Button Style */
-button {
+.btn {
   padding: 10px 20px;
   border: 2px solid transparent;
   border-radius: 6px;
@@ -84,31 +82,31 @@ button {
   cursor: pointer;
 }
 
-button.primary {
+.btn.primary {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
 
-button.primary:hover {
+.btn.primary:hover {
   background-color: var(--secondary-color);
 }
 
-button.primary:active {
+.btn.primary:active {
   background-color: var(--primary-color);
 }
 
-button.secondary {
+.btn.secondary {
   background-color: var(--white-color);
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
 
-button.secondary:hover {
+.btn.secondary:hover {
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
 }
 
-button.secondary:active {
+.btn.secondary:active {
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
 }
@@ -116,6 +114,12 @@ button.secondary:active {
 .img {
   object-fit: cover;
   aspect-ratio: 1/1;
+}
+
+.card {
+  background-color: var(--white-color);
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* Responsive Media Queries for Heading Font Size */
 

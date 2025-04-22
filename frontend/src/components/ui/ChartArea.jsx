@@ -53,6 +53,7 @@ const ChartArea = ({ chartRef, updateConversationMessages }) => {
               alt="Attach"
             />
           }
+          otherClassNames={"btn-icon"}
         />
         <Button
           defaultLabel={
@@ -62,6 +63,7 @@ const ChartArea = ({ chartRef, updateConversationMessages }) => {
               alt="Send"
             />
           }
+          otherClassNames={"btn-icon"}
           clickEvent={handleChatSubmit}
         />
       </div>
