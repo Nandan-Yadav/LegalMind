@@ -12,22 +12,20 @@
 }
 
 .home-btns{
+  width:  100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 20px;
-  border-color: tomato;
 }
 
+.home-section > .home-btns > .btn{
+  width: clamp(11.25rem, 10.929rem + 1.6vw, 12.5rem);
+}
 
 .home-img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
-
-.home-btns .btn{
-  width: clamp(11.25rem, 10.929rem + 1.6vw, 12.5rem);
-}
-
