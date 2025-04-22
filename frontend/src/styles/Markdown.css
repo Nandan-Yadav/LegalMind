@@ -58,7 +58,7 @@
   
   /* Code blocks */
   .markdown-container pre {
-    background-color: var(----bot-grey-color-2);
+    background-color: var(--bot-grey-color-2);
     color: var(--white-color);
     padding: 16px;
     border-radius: 8px;
@@ -70,8 +70,8 @@
   
   /* Inline code */
   .markdown-container code {
-    background-color: rgba(255, 255, 255, 0.05);
-    color: var(--secondary-color); /* Replaced yellow with secondary blue */
+    background-color: var(--bot-grey-color-4);
+    color: var(--primary-color); /* Replaced yellow with secondary blue */
     font-family: "Fira Code", "Courier New", monospace;
     font-size: 0.95rem;
     padding: 2px 6px;
